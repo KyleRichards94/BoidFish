@@ -180,7 +180,6 @@ let mouse = false;
 
 function setup() {
   var canvas = createCanvas(400, 400);
-  canvas.parent('boidCont');
   for(let i = 0; i <num_fish; i++){
     fishes.push(new Fish(width/2, height/2, i*3));
   }
